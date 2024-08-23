@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khensy's Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Khensy's Bakery</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="DELICIOUS BAKERY.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Indulge in Our Freshly Baked Goods</h2>
+            <p>Discover the best pastries and cakes made from scratch every day.</p>
+            <a href="menu.html" class="btn-primary">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2>Our Delicious Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="croissant.jpg" alt="Croissant">
+                    <h3>Butter Croissant</h3>
+                    <p>Flaky, buttery croissants baked to perfection.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="vanilla-cupcake.jpg" alt="Cupcake">
+                    <h3>Vanilla Cupcake</h3>
+                    <p>Light and fluffy vanilla cupcakes with creamy frosting.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="fruit-tart.jpg" alt="Fruit Tart">
+                    <h3>Fruit Tart</h3>
+                    <p>Delicious tart topped with fresh seasonal fruits.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="bagel.jpg" alt="Bagel">
+                    <h3>Everything Bagel</h3>
+                    <p>Classic bagels loaded with seeds and flavor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Sweet Treats Bakery has been serving the community with delicious baked goods since 1990. Our mission is to bring joy and sweetness to your day with our handcrafted pastries and cakes.</p>
+            <h3>Meet Our Team</h3>
+            <div class="team">
+                <div class="team-member">
+                    <img src="chef.jpg" alt="Head Chef">
+                    <h4>Khensani</h4>
+                    <p>Head Chef - Khensani is the mastermind behind our recipes and ensures every treat is made with love.</p>
+                </div>
+                <div class="team-member">
+                    <img src="baker.jpg" alt="Baker">
+                    <h4>Sbusiso</h4>
+                    <p>Baker - Sbusiso brings a wealth of baking experience and a passion for perfection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit"><a href="https://wa.me/+27763074357">Send Message</a></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Khensy's Bakery. All rights reserved.</p>
+			<a href="https://www.semesterapplications.wordpress.com">More About the Developer</a
+        </div>
+    </footer>
+</body>
+</html>
